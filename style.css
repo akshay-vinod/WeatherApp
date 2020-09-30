@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.weather-box {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background: linear-gradient(rgb(11, 142, 152), rgb(42, 49, 88));
+  color: white;
+}
+.location {
+  height: 30vh;
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.temperature {
+  flex-direction: column;
+}
+.measure-temp {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.measure-temp span {
+  margin: 10px;
+  font-size: 30px;
+}
+.measure-temp h3 {
+  font-size: 40px;
+}
